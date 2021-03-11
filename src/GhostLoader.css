@@ -1,0 +1,32 @@
+.ghost-loader {
+  display: flex;
+  flex-flow: row wrap;
+  line-height: 1;
+  overflow: hidden;
+  position: relative;
+  background-color: #e2e2e2;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+
+.ghost-loader::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 500px;
+  top: 0;
+  left: -500px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0)
+  );
+  animation: loading 1.2s ease-in-out infinite;
+}
+
+@keyframes loading {
+  100% {
+    left: 100%;
+  }
+}
