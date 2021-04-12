@@ -1,4 +1,5 @@
 import { configure } from '@storybook/react';
+import "./storiesStyle.css"
 
 const req = require.context('../stories', true, /.stories.js$/);
 function loadStories() {
