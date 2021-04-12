@@ -1,0 +1,37 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 1140px;
+    width: 100%;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+.col-5 {
+    flex-basis: 41.66%;
+    max-width: 41.66%;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-image{
+    width: 100%;
+}
