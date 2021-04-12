@@ -1,12 +1,10 @@
 .ghost-loader {
-  display: flex;
-  flex-flow: row wrap;
+  display: inline-block;
   line-height: 1;
   overflow: hidden;
   position: relative;
   background-color: #e2e2e2;
   border-radius: 8px;
-  margin: 5px 0;
 }
 
 .ghost-loader::before {

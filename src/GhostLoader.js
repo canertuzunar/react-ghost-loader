@@ -21,7 +21,6 @@ const GhostLoader = ({width, height, row, widthRandom, heightRandom}) => {
     return (
         <>
         {LoaderElements}
-        <p>deneme</p>
         </>
     )
 }
